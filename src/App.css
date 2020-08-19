@@ -1,0 +1,114 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+
+.shades {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10%);
+    grid-template-rows: repeat(auto-fill, 10%);
+    animation-name: leftToRight;
+    animation-duration: 0.7s;
+}
+
+.shade {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate;
+    animation-duration: 1s;
+}
+
+.shade:hover {
+    cursor: pointer;
+}
+
+.shade-search {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+
+
+.shade-input {
+    border: none;
+    background-color: #DAE0E2;
+    padding: 1rem 1.5rem;
+    border-radius: 27px;
+    text-align: center;
+}
+
+.shade-input:focus {
+    outline: none;
+}
+
+.emojis {
+    font-size: 3.5rem;
+    animation-name: animate;
+    animation-duration: 1s;
+}
+
+.copied {
+    animation-name: copied;
+    animation-duration: 0.3s;
+}
+
+@keyframes copied {
+    0% {
+        opacity: 0;
+        font-size: 0;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 1rem;
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        width: 0%;
+        height: 0%;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .shades {
+      grid-template-columns: repeat(4, 25%);
+      grid-template-rows: repeat(100, 20%);
+    }
+    .emojis {
+      font-size: 23px;
+    }
+  
+    .shade-search {
+      padding: 1rem 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 660px) {
+    .shades {
+      grid-template-columns: repeat(2, 50%);
+      grid-template-rows: repeat(100, 20%);
+    }
+    .emojis {
+      font-size: 13px;
+    }
+  
+    .shade-search {
+      padding: 1rem 1rem;
+    }
+  }
