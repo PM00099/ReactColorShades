@@ -1,6 +1,6 @@
 ## Demo 
 
-https://pm00099.github.io/ReactColorShades/
+https://pmthedeveloper.github.io/ReactColorShades/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
