@@ -7,7 +7,7 @@ const Shade = ({ shade,onColorCopy }) => {
 
     useEffect(() => {
         let interval;
-        if(copied == true){
+        if(copied === true){
             interval = setInterval(() => {
                 setCopied(false);
             },800)

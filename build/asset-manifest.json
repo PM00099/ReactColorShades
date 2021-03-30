@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactColorShades/static/css/main.434f2f7b.chunk.css",
+    "main.js": "/ReactColorShades/static/js/main.a25b16e4.chunk.js",
+    "main.js.map": "/ReactColorShades/static/js/main.a25b16e4.chunk.js.map",
+    "runtime-main.js": "/ReactColorShades/static/js/runtime-main.f1f91646.js",
+    "runtime-main.js.map": "/ReactColorShades/static/js/runtime-main.f1f91646.js.map",
+    "static/js/2.7b80f001.chunk.js": "/ReactColorShades/static/js/2.7b80f001.chunk.js",
+    "static/js/2.7b80f001.chunk.js.map": "/ReactColorShades/static/js/2.7b80f001.chunk.js.map",
+    "index.html": "/ReactColorShades/index.html",
+    "precache-manifest.ef6787523a190e92a42e0568f5b140ec.js": "/ReactColorShades/precache-manifest.ef6787523a190e92a42e0568f5b140ec.js",
+    "service-worker.js": "/ReactColorShades/service-worker.js",
+    "static/css/main.434f2f7b.chunk.css.map": "/ReactColorShades/static/css/main.434f2f7b.chunk.css.map",
+    "static/js/2.7b80f001.chunk.js.LICENSE.txt": "/ReactColorShades/static/js/2.7b80f001.chunk.js.LICENSE.txt",
+    "static/media/sound1.mp3": "/ReactColorShades/static/media/sound1.b362f89b.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1f91646.js",
+    "static/js/2.7b80f001.chunk.js",
+    "static/css/main.434f2f7b.chunk.css",
+    "static/js/main.a25b16e4.chunk.js"
+  ]
+}
